@@ -1,0 +1,150 @@
+body{
+    background-color:#bdf5e7 ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1 0 auto;
+}
+
+.my_bg_toggle{
+    background-color: #36c9a9;
+    transition: all 0.3s;
+}
+
+.my_bg_toggle:hover{
+    background-color: #276556;
+    color: white;
+    transform: scale(1.1);
+}
+
+.my_bg_dark{
+    background-color: #36c9a9;
+}
+
+.my_bg{
+    background-color: #bdf5e7;
+}
+
+.btn{
+    min-width: 200px;
+}
+
+.asignatura{
+    border-radius: 5px;
+    border: solid 1px #36c9a9;
+    font-size: larger;
+    font-style: italic;
+    background: #c9f5ec;
+    transition: all 0.3s;
+}
+
+.asignatura:hover{
+  transform: scale(1.1);
+  background-color: #68d8c0;
+  color: white;
+  text-shadow: 0px 0px 10px white;
+  box-shadow: 2px 2px 8px rgb(103, 100, 100);
+}
+
+.titulo{
+    font-size: 30px;
+    position: relative;
+
+   /* centrar el maldito texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.my_nav{
+    height: 50px;
+}
+
+
+.answer{
+    background: #68d8c0;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.answer:hover{
+    background-color: #3e9985;
+}
+
+.answer > input{
+display: none;
+}
+
+.input_selected{
+    background-color: #3e9985;
+}
+
+
+/* Estilo inicial del enlace */
+.navbar-nav .nav-link {
+    transition: color 0.3s; /* Agrega transición para suavizar el cambio de color */
+}
+
+/* Cambia el color del texto al pasar el ratón por encima */
+.navbar-nav .nav-link:hover {
+    color: white; /* Color blanco al pasar el ratón por encima */
+}
+
+.formulario{
+    max-width: 400px;
+    background-color: #36c9a9;
+    padding: 25px;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+
+/* pie de pagina */
+footer {
+    background-color: #36c9a9;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 50vh;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .ul2 p {
+    line-height: 0.5;
+  }
+  /* ]pie de pagina */
+
+  
+
+
